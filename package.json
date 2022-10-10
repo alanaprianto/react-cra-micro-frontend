@@ -4,7 +4,7 @@
   "description": "react cra micro frontend with module federation webpack 5 using craco",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"cd blog; npm run craco\" \"cd portal; npm run craco\""
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,17 @@
     "webpack5",
     "craco"
   ],
-  "author": "",
+  "author": "alan",
   "license": "ISC",
+  "workspaces": [
+    "blog",
+    "portal"
+  ],
   "bugs": {
     "url": "https://github.com/alanaprianto/react-cra-micro-frontend/issues"
   },
-  "homepage": "https://github.com/alanaprianto/react-cra-micro-frontend#readme"
+  "homepage": "https://github.com/alanaprianto/react-cra-micro-frontend#readme",
+  "devDependencies": {
+    "concurrently": "^7.4.0"
+  }
 }
