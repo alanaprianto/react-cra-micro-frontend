@@ -1,0 +1,27 @@
+{
+  "name": "react-cra-micro-frontend",
+  "version": "0.0.1",
+  "description": "react cra micro frontend with module federation webpack 5 using craco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanaprianto/react-cra-micro-frontend.git"
+  },
+  "keywords": [
+    "react",
+    "cra",
+    "micro",
+    "frontend",
+    "webpack5",
+    "craco"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanaprianto/react-cra-micro-frontend/issues"
+  },
+  "homepage": "https://github.com/alanaprianto/react-cra-micro-frontend#readme"
+}
